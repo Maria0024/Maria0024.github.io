@@ -1,0 +1,63 @@
+.btn{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .a{
+    border:3px solid #F5DEB3;
+    border-radius: 15px;
+    background-color: #F5DEB3;
+    border-width: 170;
+    border-top: 44;
+    text-decoration: none;
+    margin:25px;
+  }
+.a:hover{
+    transition-property: background-color, border;
+    background-color: #DEB887;
+    border:#DEB887;
+    transition-duration: 0.5s;
+}
+  
+  @media (orientation: portrait) and (max-width: 450px) {
+    .question {
+        font-size: 50px; 
+    }
+    .ans-row {
+        width: 380px;
+    }
+}
+header{
+    background-color: #FFFFE0;
+}
+span{
+    text-align: center;
+    margin-left: 450px;
+    font-size:50px;
+}
+footer{
+    
+    margin-top: 20px;
+    margin:25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:300px;
+    text-align: center;
+    margin-left: 500px;
+    
+
+}
+.img{
+    background-image: url(images/santorini-ostroa-grecziya.jpg);
+    background-size: cover;
+    /* width: 1800px; */
+    height: 550px;
+    background-repeat: no-repeat;
+
+
+}
+
+    
